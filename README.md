@@ -7,7 +7,7 @@ Game Version: 1.11.12 <br>
 Mod Version: 1
 
 Supported countries: <br>
-Germany: Hungary, Bulgaria, Romania, Italy( After 1939/8/1) <br>
+Germany: Hungary, Bulgaria, Romania, Italy(After 1939/8/1) <br>
 UK: All the puppets (you cant annex them right away, you have to fulfill the requirements) <br>
 USA: Philippines <br>
 Japan: Manchukuo, Mengkukuo, Siam(Should be in your faction) 
