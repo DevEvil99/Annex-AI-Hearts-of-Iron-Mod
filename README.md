@@ -1,5 +1,7 @@
 # Annex AI
-With this mod you can annex AI/Puppet countries and get their troops and core them to stop cancer
+With this mod you can annex AI/Puppet countries and get their troops and core them to stop cancer <br>
+
+[Download](https://steamcommunity.com/sharedfiles/filedetails/?id=2849082339)
 
 Game Version: 1.11.12 <br>
 Mod Version: 1
