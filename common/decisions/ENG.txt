@@ -1,0 +1,249 @@
+#Category only allowed for ENG
+ENG_annex_ai = {
+	ENG_annex_can = {
+		
+		fire_only_once = yes
+		icon = GFX_decision_category_hol_war_on_pacifism
+
+		allowed = {
+			tag = ENG
+		}
+
+		visible = {
+			CAN = {
+				is_ai = yes	
+			}	
+		}
+		available = {
+			has_army_manpower = { size > 999999 }
+			CAN = {
+				is_ai = yes	
+				OR = {
+					is_puppet_of = ENG
+					is_in_faction_with = ENG
+				}
+			}	
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			annex_country = {
+				target = CAN
+   			 	transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = CAN
+					
+				}
+				set_compliance = 90
+			}
+		}
+	}
+	ENG_annex_raj = {
+		
+		fire_only_once = yes
+		icon = GFX_decision_category_hol_war_on_pacifism
+
+		allowed = {
+			tag = ENG
+		}
+
+		visible = {
+			RAJ = {
+				is_ai = yes	
+			}	
+		}
+		available = {
+			has_army_manpower = { size > 999999 }
+			RAJ = {
+				is_ai = yes	
+				OR = {
+					is_puppet_of = ENG
+					is_in_faction_with = ENG
+				}
+			}	
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			annex_country = {
+				target = RAJ
+   			 	transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = RAJ
+					
+				}
+				set_compliance = 90
+			}
+		}
+	}
+	ENG_annex_ast = {
+		
+		fire_only_once = yes
+		icon = GFX_decision_category_hol_war_on_pacifism
+
+		allowed = {
+			tag = ENG
+		}
+
+		visible = {
+			AST = {
+				is_ai = yes	
+			}	
+		}
+		available = {
+			has_army_manpower = { size > 499999 }
+			AST = {
+				is_ai = yes	
+				OR = {
+					is_puppet_of = ENG
+					is_in_faction_with = ENG
+				}
+			}	
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			annex_country = {
+				target = AST
+   			 	transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = AST
+					
+				}
+				set_compliance = 90
+			}
+		}
+	}
+	ENG_annex_nzl = {
+		
+		fire_only_once = yes
+		icon = GFX_decision_category_hol_war_on_pacifism
+
+		allowed = {
+			tag = ENG
+		}
+
+		visible = {
+			NZL = {
+				is_ai = yes	
+			}	
+		}
+		available = {
+			has_army_manpower = { size > 259999 }
+			NZL = {
+				is_ai = yes	
+				OR = {
+					is_puppet_of = ENG
+					is_in_faction_with = ENG
+				}
+			}	
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			annex_country = {
+				target = NZL
+   			 	transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = NZL
+					
+				}
+				set_compliance = 90
+			}
+		}
+	}
+	ENG_annex_saf = {
+		
+		fire_only_once = yes
+		icon = GFX_decision_category_hol_war_on_pacifism
+
+		allowed = {
+			tag = ENG
+		}
+
+		visible = {
+			SAF = {
+				is_ai = yes	
+			}	
+		}
+		available = {
+			has_army_manpower = { size > 449999 }
+			SAF = {
+				is_ai = yes	
+				OR = {
+					is_puppet_of = ENG
+					is_in_faction_with = ENG
+				}
+			}	
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			annex_country = {
+				target = SAF
+   			 	transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = SAF
+					
+				}
+				set_compliance = 90
+			}
+		}
+	}
+	ENG_annex_mal = {
+		
+		fire_only_once = yes
+		icon = GFX_decision_category_hol_war_on_pacifism
+
+		allowed = {
+			tag = ENG
+		}
+
+		visible = {
+			MAL = {
+				is_ai = yes	
+			}	
+		}
+		available = {
+			has_army_manpower = { size > 449999 }
+			MAL = {
+				is_ai = yes	
+				OR = {
+					is_puppet_of = ENG
+					is_in_faction_with = ENG
+				}
+			}	
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			annex_country = {
+				target = MAL
+   			 	transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = MAL
+					
+				}
+				set_compliance = 90
+			}
+		}
+	}
+}

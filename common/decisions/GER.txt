@@ -1,0 +1,163 @@
+#Category only allowed for GER
+GER_annex_ai = {
+	GER_annex_hun = {
+		
+		fire_only_once = yes
+		icon = GFX_decision_category_hol_war_on_pacifism
+
+		allowed = {
+			tag = GER
+		}
+
+		visible = {
+			HUN = {
+				is_ai = yes	
+			}	
+		}
+		available = {
+			HUN = {
+				is_ai = yes	
+				OR = {
+					is_puppet_of = GER
+					is_in_faction_with = GER
+				}
+			}	
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			annex_country = {
+				target = HUN
+   			 	transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = HUN
+					
+				}
+				set_compliance = 90
+			}
+		}
+	}
+	GER_annex_rom = {
+		
+		fire_only_once = yes
+		icon = GFX_decision_category_hol_war_on_pacifism
+
+		allowed = {
+			tag = GER
+		}
+
+		visible = {
+			ROM = {
+				is_ai = yes	
+			}	
+		}
+		available = {
+			ROM = {
+				is_ai = yes	
+				OR = {
+					is_puppet_of = GER
+					is_in_faction_with = GER
+				}
+			}	
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			annex_country = {
+				target = ROM
+   			 	transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = ROM
+					
+				}
+				set_compliance = 90
+			}
+		}
+	}
+	GER_annex_bul = {
+		
+		fire_only_once = yes
+		icon = GFX_decision_category_hol_war_on_pacifism
+
+		allowed = {
+			tag = GER
+		}
+
+		visible = {
+			BUL = {
+				is_ai = yes	
+			}	
+		}
+		available = {
+			BUL = {
+				is_ai = yes	
+				OR = {
+					is_puppet_of = GER
+					is_in_faction_with = GER
+				}
+			}	
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			annex_country = {
+				target = BUL
+   			 	transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = BUL
+					
+				}
+				set_compliance = 90
+			}
+		}
+	}
+	GER_annex_ita = {
+		
+		fire_only_once = yes
+		icon = GFX_decision_category_hol_war_on_pacifism
+
+		allowed = {
+			tag = GER
+		}
+
+		visible = {
+			ITA = {
+				is_ai = yes	
+			}	
+			AND = {
+				date > 1939.08.01
+			}
+		}
+		available = {
+			ITA = {
+				is_ai = yes	
+			}	
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			annex_country = {
+				target = ITA
+   			 	transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = ITA
+					
+				}
+				set_compliance = 90
+			}
+		}
+	}
+	
+}

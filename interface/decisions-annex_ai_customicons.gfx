@@ -1,0 +1,32 @@
+spriteTypes = { 
+	##Icon For Category: Annex AI
+	SpriteType = { 
+		name = "decision_category_icon_annex_ai"
+		texturefile = "gfx/interface/decisions/decision_category_icon_annex_ai.dds"
+	}
+
+	##Picture For: Annex AI
+	SpriteType = { 
+		name = "decision_category_picture_annex_ai"
+		texturefile = "gfx/interface/decisions/decision_category_picture_annex_ai.dds"
+	}
+
+	##Icon For: Annex Hungary
+	SpriteType = { 
+		name = "decision_icon_annex_hungary"
+		texturefile = "gfx/interface/decisions/decision_icon_annex_hungary.dds"
+	}
+
+	##Icon For: Annex Bulgaria
+	SpriteType = { 
+		name = "decision_icon_annex_bulgaria"
+		texturefile = "gfx/interface/decisions/decision_icon_annex_bulgaria.dds"
+	}
+
+	##Icon For: Annex Romania
+	SpriteType = { 
+		name = "decision_icon_annex_romania"
+		texturefile = "gfx/interface/decisions/decision_icon_annex_romania.dds"
+	}
+
+}

@@ -1,0 +1,11 @@
+ENG_annex_ai = {
+	icon = GFX_decision_eng_install_government
+
+	allowed = {
+		original_tag = ENG
+	}
+
+	visible = {
+		is_subject = no
+	}
+}

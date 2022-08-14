@@ -1,0 +1,11 @@
+JAP_annex_ai = {
+	icon = GFX_decision_category_jap_southern_expansion
+
+	allowed = {
+		original_tag = JAP
+	}
+
+	visible = {
+		is_subject = no
+	}
+}
