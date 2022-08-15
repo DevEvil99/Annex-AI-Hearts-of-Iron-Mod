@@ -1,0 +1,245 @@
+#Category only allowed for PRC
+PRC_annex_ai = {
+	PRC_annex_chi = {
+		
+		fire_only_once = yes
+		icon = GFX_decision_category_hol_war_on_pacifism
+
+		allowed = {
+			tag = PRC
+		}
+
+		visible = {
+			CHI = {
+				is_ai = yes	
+			}	
+		}
+		available = {
+			CHI = {
+				is_ai = yes	
+				OR = {
+					is_puppet_of = PRC
+					is_in_faction_with = PRC
+				}
+			}	
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			annex_country = {
+				target = CHI
+   			 	transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = CHI
+					
+				}
+				set_compliance = 90
+			}
+		}
+	}
+	PRC_annex_yun = {
+		
+		fire_only_once = yes
+		icon = GFX_decision_category_hol_war_on_pacifism
+
+		allowed = {
+			tag = PRC
+		}
+
+		visible = {
+			YUN = {
+				is_ai = yes	
+			}	
+		}
+		available = {
+			YUN = {
+				is_ai = yes	
+				OR = {
+					is_puppet_of = PRC
+					is_in_faction_with = PRC
+				}
+			}	
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			annex_country = {
+				target = YUN
+   			 	transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = YUN
+					
+				}
+				set_compliance = 90
+			}
+		}
+	}
+	PRC_annex_gxc = {
+		
+		fire_only_once = yes
+		icon = GFX_decision_category_hol_war_on_pacifism
+
+		allowed = {
+			tag = PRC
+		}
+
+		visible = {
+			GXC = {
+				is_ai = yes	
+			}	
+		}
+		available = {
+			GXC = {
+				is_ai = yes	
+				OR = {
+					is_puppet_of = PRC
+					is_in_faction_with = PRC
+				}
+			}	
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			annex_country = {
+				target = GXC
+   			 	transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = GXC
+					
+				}
+				set_compliance = 90
+			}
+		}
+	}
+	PRC_annex_xsm = {
+		
+		fire_only_once = yes
+		icon = GFX_decision_category_hol_war_on_pacifism
+
+		allowed = {
+			tag = PRC
+		}
+
+		visible = {
+			XSM = {
+				is_ai = yes	
+			}	
+		}
+		available = {
+			XSM = {
+				is_ai = yes	
+				OR = {
+					is_puppet_of = PRC
+					is_in_faction_with = PRC
+				}
+			}	
+			
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			annex_country = {
+				target = XSM
+   			 	transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = XSM
+					
+				}
+				set_compliance = 90
+			}
+		}
+	}
+	PRC_annex_sik = {
+		
+		fire_only_once = yes
+		icon = GFX_decision_category_hol_war_on_pacifism
+
+		allowed = {
+			tag = PRC
+		}
+
+		visible = {
+			SIK = {
+				is_ai = yes	
+			}	
+		}
+		available = {
+			SIK = {
+				is_ai = yes	
+				OR = {
+					is_puppet_of = PRC
+					is_in_faction_with = PRC
+				}
+			}	
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			annex_country = {
+				target = SIK
+   			 	transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = SIK
+					
+				}
+				set_compliance = 90
+			}
+		}
+	}
+	PRC_annex_tib = {
+		
+		fire_only_once = yes
+		icon = GFX_decision_category_hol_war_on_pacifism
+
+		allowed = {
+			tag = PRC
+		}
+
+		visible = {
+			TIB = {
+				is_ai = yes	
+			}	
+		}
+		available = {
+			TIB = {
+				is_ai = yes	
+				OR = {
+					is_puppet_of = PRC
+					is_in_faction_with = PRC
+				}
+			}	
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			annex_country = {
+				target = TIB
+   			 	transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = TIB
+					
+				}
+				set_compliance = 90
+			}
+		}
+	}
+	
+}

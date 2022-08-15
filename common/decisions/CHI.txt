@@ -1,0 +1,245 @@
+#Category only allowed for CHI
+CHI_annex_ai = {
+	CHI_annex_prc = {
+		
+		fire_only_once = yes
+		icon = GFX_decision_category_hol_war_on_pacifism
+
+		allowed = {
+			tag = CHI
+		}
+
+		visible = {
+			PRC = {
+				is_ai = yes	
+			}	
+		}
+		available = {
+			PRC = {
+				is_ai = yes	
+				OR = {
+					is_puppet_of = CHI
+					is_in_faction_with = CHI
+				}
+			}	
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			annex_country = {
+				target = PRC
+   			 	transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = PRC
+					
+				}
+				set_compliance = 90
+			}
+		}
+	}
+	CHI_annex_yun = {
+		
+		fire_only_once = yes
+		icon = GFX_decision_category_hol_war_on_pacifism
+
+		allowed = {
+			tag = CHI
+		}
+
+		visible = {
+			YUN = {
+				is_ai = yes	
+			}	
+		}
+		available = {
+			YUN = {
+				is_ai = yes	
+				OR = {
+					is_puppet_of = CHI
+					is_in_faction_with = CHI
+				}
+			}	
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			annex_country = {
+				target = YUN
+   			 	transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = YUN
+					
+				}
+				set_compliance = 90
+			}
+		}
+	}
+	CHI_annex_gxc = {
+		
+		fire_only_once = yes
+		icon = GFX_decision_category_hol_war_on_pacifism
+
+		allowed = {
+			tag = CHI
+		}
+
+		visible = {
+			GXC = {
+				is_ai = yes	
+			}	
+		}
+		available = {
+			GXC = {
+				is_ai = yes	
+				OR = {
+					is_puppet_of = CHI
+					is_in_faction_with = CHI
+				}
+			}	
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			annex_country = {
+				target = GXC
+   			 	transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = GXC
+					
+				}
+				set_compliance = 90
+			}
+		}
+	}
+	CHI_annex_xsm = {
+		
+		fire_only_once = yes
+		icon = GFX_decision_category_hol_war_on_pacifism
+
+		allowed = {
+			tag = CHI
+		}
+
+		visible = {
+			XSM = {
+				is_ai = yes	
+			}	
+		}
+		available = {
+			XSM = {
+				is_ai = yes	
+				OR = {
+					is_puppet_of = CHI
+					is_in_faction_with = CHI
+				}
+			}	
+			
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			annex_country = {
+				target = XSM
+   			 	transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = XSM
+					
+				}
+				set_compliance = 90
+			}
+		}
+	}
+	CHI_annex_sik = {
+		
+		fire_only_once = yes
+		icon = GFX_decision_category_hol_war_on_pacifism
+
+		allowed = {
+			tag = CHI
+		}
+
+		visible = {
+			SIK = {
+				is_ai = yes	
+			}	
+		}
+		available = {
+			SIK = {
+				is_ai = yes	
+				OR = {
+					is_puppet_of = CHI
+					is_in_faction_with = CHI
+				}
+			}	
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			annex_country = {
+				target = SIK
+   			 	transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = SIK
+					
+				}
+				set_compliance = 90
+			}
+		}
+	}
+	CHI_annex_tib = {
+		
+		fire_only_once = yes
+		icon = GFX_decision_category_hol_war_on_pacifism
+
+		allowed = {
+			tag = CHI
+		}
+
+		visible = {
+			TIB = {
+				is_ai = yes	
+			}	
+		}
+		available = {
+			TIB = {
+				is_ai = yes	
+				OR = {
+					is_puppet_of = CHI
+					is_in_faction_with = CHI
+				}
+			}	
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			annex_country = {
+				target = TIB
+   			 	transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = TIB
+					
+				}
+				set_compliance = 90
+			}
+		}
+	}
+	
+}
