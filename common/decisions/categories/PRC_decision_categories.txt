@@ -1,5 +1,5 @@
 PRC_annex_ai = {
-	icon = GFX_decision_category_jap_intervene_in_china
+	icon = decision_category_china
 
 	allowed = {
 		original_tag = PRC

@@ -1,5 +1,5 @@
 ENG_annex_ai = {
-	icon = GFX_decision_eng_install_government
+	icon = decision_category_britain
 
 	allowed = {
 		original_tag = ENG

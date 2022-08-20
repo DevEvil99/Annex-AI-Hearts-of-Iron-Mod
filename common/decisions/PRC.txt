@@ -3,7 +3,7 @@ PRC_annex_ai = {
 	PRC_annex_chi = {
 		
 		fire_only_once = yes
-		icon = GFX_decision_category_hol_war_on_pacifism
+		icon = decision_icon_dragon
 
 		allowed = {
 			tag = PRC
@@ -43,7 +43,7 @@ PRC_annex_ai = {
 	PRC_annex_yun = {
 		
 		fire_only_once = yes
-		icon = GFX_decision_category_hol_war_on_pacifism
+		icon = decision_icon_dragon
 
 		allowed = {
 			tag = PRC
@@ -83,7 +83,7 @@ PRC_annex_ai = {
 	PRC_annex_gxc = {
 		
 		fire_only_once = yes
-		icon = GFX_decision_category_hol_war_on_pacifism
+		icon = decision_icon_dragon
 
 		allowed = {
 			tag = PRC
@@ -123,7 +123,7 @@ PRC_annex_ai = {
 	PRC_annex_xsm = {
 		
 		fire_only_once = yes
-		icon = GFX_decision_category_hol_war_on_pacifism
+		icon = decision_icon_dragon
 
 		allowed = {
 			tag = PRC
@@ -164,7 +164,7 @@ PRC_annex_ai = {
 	PRC_annex_sik = {
 		
 		fire_only_once = yes
-		icon = GFX_decision_category_hol_war_on_pacifism
+		icon = decision_icon_dragon
 
 		allowed = {
 			tag = PRC
@@ -204,7 +204,7 @@ PRC_annex_ai = {
 	PRC_annex_tib = {
 		
 		fire_only_once = yes
-		icon = GFX_decision_category_hol_war_on_pacifism
+		icon = decision_icon_dragon
 
 		allowed = {
 			tag = PRC

@@ -3,7 +3,7 @@ ENG_annex_ai = {
 	ENG_annex_can = {
 		
 		fire_only_once = yes
-		icon = GFX_decision_category_hol_war_on_pacifism
+		icon = decision_icon_skulls_british
 
 		allowed = {
 			tag = ENG
@@ -44,7 +44,7 @@ ENG_annex_ai = {
 	ENG_annex_raj = {
 		
 		fire_only_once = yes
-		icon = GFX_decision_category_hol_war_on_pacifism
+		icon = decision_icon_skulls_british
 
 		allowed = {
 			tag = ENG
@@ -85,7 +85,7 @@ ENG_annex_ai = {
 	ENG_annex_ast = {
 		
 		fire_only_once = yes
-		icon = GFX_decision_category_hol_war_on_pacifism
+		icon = decision_icon_skulls_british
 
 		allowed = {
 			tag = ENG
@@ -126,7 +126,7 @@ ENG_annex_ai = {
 	ENG_annex_nzl = {
 		
 		fire_only_once = yes
-		icon = GFX_decision_category_hol_war_on_pacifism
+		icon = decision_icon_skulls_british
 
 		allowed = {
 			tag = ENG
@@ -138,7 +138,7 @@ ENG_annex_ai = {
 			}	
 		}
 		available = {
-			has_army_manpower = { size > 259999 }
+			has_army_manpower = { size > 249999 }
 			NZL = {
 				is_ai = yes	
 				OR = {
@@ -167,7 +167,7 @@ ENG_annex_ai = {
 	ENG_annex_saf = {
 		
 		fire_only_once = yes
-		icon = GFX_decision_category_hol_war_on_pacifism
+		icon = decision_icon_skulls_british
 
 		allowed = {
 			tag = ENG
@@ -208,7 +208,7 @@ ENG_annex_ai = {
 	ENG_annex_mal = {
 		
 		fire_only_once = yes
-		icon = GFX_decision_category_hol_war_on_pacifism
+		icon = decision_icon_skulls_british
 
 		allowed = {
 			tag = ENG

@@ -3,7 +3,7 @@ USA_annex_ai = {
 	USA_annex_phi = {
 		
 		fire_only_once = yes
-		icon = GFX_decision_category_hol_war_on_pacifism
+		icon = decision_icon_tommy_gun
 
 		allowed = {
 			tag = USA

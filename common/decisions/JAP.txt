@@ -3,7 +3,7 @@ JAP_annex_ai = {
 	JAP_annex_man = {
 		
 		fire_only_once = yes
-		icon = GFX_decision_category_hol_war_on_pacifism
+		icon = decision_icon_katana
 
 		allowed = {
 			tag = JAP
@@ -43,7 +43,7 @@ JAP_annex_ai = {
 	JAP_annex_men = {
 		
 		fire_only_once = yes
-		icon = GFX_decision_category_hol_war_on_pacifism
+		icon = decision_icon_katana
 
 		allowed = {
 			tag = JAP
@@ -83,7 +83,7 @@ JAP_annex_ai = {
 	JAP_annex_sia = {
 		
 		fire_only_once = yes
-		icon = GFX_decision_category_hol_war_on_pacifism
+		icon = decision_icon_katana
 
 		allowed = {
 			tag = JAP

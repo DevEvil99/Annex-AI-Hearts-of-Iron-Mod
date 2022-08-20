@@ -1,5 +1,5 @@
 JAP_annex_ai = {
-	icon = GFX_decision_category_jap_southern_expansion
+	icon = decision_category_samurai
 
 	allowed = {
 		original_tag = JAP
