@@ -1,0 +1,56 @@
+spriteTypes = { 
+
+	SpriteType = { 
+		name = "decision_category_eagle_germany"
+		texturefile = "gfx/interface/decisions/decision_category_eagle_germany.dds"
+	}
+
+	SpriteType = { 
+		name = "decision_icon_reaper"
+		texturefile = "gfx/interface/decisions/decision_icon_reaper.dds"
+	}
+
+	SpriteType = { 
+		name = "decision_category_samurai"
+		texturefile = "gfx/interface/decisions/decision_category_samurai.dds"
+	}
+
+	SpriteType = { 
+		name = "decision_icon_katana"
+		texturefile = "gfx/interface/decisions/decision_icon_katana.dds"
+	}
+
+	SpriteType = { 
+		name = "decision_category_britain"
+		texturefile = "gfx/interface/decisions/decision_category_britain.dds"
+	}
+
+	SpriteType = { 
+		name = "decision_icon_skulls_british"
+		texturefile = "gfx/interface/decisions/decision_icon_skulls_british.dds"
+	}
+
+	SpriteType = { 
+		name = "decision_category_usa"
+		texturefile = "gfx/interface/decisions/decision_category_usa.dds"
+	}
+	
+	SpriteType = { 
+		name = "decision_icon_tommy_gun"
+		texturefile = "gfx/interface/decisions/decision_icon_tommy_gun.dds"
+	}
+
+	SpriteType = { 
+		name = "decision_category_china"
+		texturefile = "gfx/interface/decisions/decision_category_china.dds"
+	}
+
+	SpriteType = { 
+		name = "decision_icon_dragon"
+		texturefile = "gfx/interface/decisions/decision_icon_dragon.dds"
+	}
+
+
+
+
+}
